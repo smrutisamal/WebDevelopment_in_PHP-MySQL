@@ -1,0 +1,33 @@
+# Task 1: Setting Up the Development Environment
+
+This repository contains the basic setup for a PHP development environment using MySQL and Git version control.
+
+## 📌 Objective
+
+- Set up a local development environment for PHP and MySQL.
+- Configure Git for version control and initialize a GitHub repository.
+
+---
+
+## 🛠️ Setup Steps
+
+### 1. Install a Local Server Environment
+- Download and install [XAMPP](https://www.apachefriends.org/), [WAMP](https://www.wampserver.com/), or [MAMP](https://www.mamp.info/).
+- Start Apache and MySQL services.
+- Open your browser and visit: `http://localhost/` to verify installation.
+
+### 2. Install a Code Editor
+- Recommended: [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/)
+- Install PHP-related extensions (e.g., PHP Intelephense, PHP Debug, etc.)
+
+### 3. Set Up Version Control
+- Install [Git](https://git-scm.com/)
+- Create a GitHub account (if not already done)
+- Initialize a Git repository in your project folder:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <your-repo-url>
+git push -u origin main
