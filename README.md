@@ -55,8 +55,22 @@ The internship was focused on full-stack web development using PHP, MySQL, HTML,
 - Enhanced authentication system with secure session handling  
 - Role-based dashboards with restricted access  
 - Source code versioned and pushed to GitHub  
+### 🧩 Task 4: Security Enhancements
+Timeline: 10 Days
+SQL Injection Prevention:
+Implemented PDO prepared statements for all database queries.
+Form Validation:
+Added server-side validation for data integrity.
+Implemented client-side validation (JavaScript) for real-time feedback.
+User Roles & Permissions:
+Extended user roles (admin, editor, user) with granular access control.
+Restricted sensitive actions (e.g., post deletion) to authorized roles only.
 
----
+📂 Deliverables:
+
+Secure application with OWASP-aligned protections
+
+Documentation of security measures implemented
 
 ### 🧩 Task 5: Final Project and Certification  
 **Timeline:** 12 Days
